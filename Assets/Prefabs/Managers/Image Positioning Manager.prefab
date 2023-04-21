@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7243262921572822477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7243262921572822478}
+  - component: {fileID: 7243262921572822479}
+  m_Layer: 0
+  m_Name: Image Positioning Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7243262921572822478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243262921572822477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7243262921572822479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243262921572822477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08bbe4ffa384c5944bd0321492b666e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _arSession: {fileID: 0}
+  _arSessionOrigin: {fileID: 0}
+  _camera: {fileID: 0}
+  _imageTracker: {fileID: 0}
+  _imagePositions:
+  - Image: {fileID: 2800000, guid: 9a9fe4755be515245bdff778f7e1419f, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 70fccf272c20d774fa46607a2ce1be0c, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 4a5d66e1fbc058848b94ac9e032f3694, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: f827bac5bc136204a8263cff5c1c3198, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: f97f3e13108d41e44924c4cee44708a7, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 39c7d263639365544976b68c9aa699aa, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: c6a0f398e13cfcb419a068d44f5c8ef5, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 78ebb553328872b44b4fd13dd30a13a6, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 3e38e300ed0c05c41971ba87e99cbe48, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 00176673f9af7a64eb49d81d83524513, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 17e0d7da85fd08142a96c8ee65a782c5, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: d57e4d8705be94642bfc2590d41ba64e, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 509fc7eac92c8004096507cdabdacc1c, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: f3ef274df07cac3468bdd880a32050dc, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: c1ae4e4532742144db5b66c977206a44, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 2bacab76422faad459064aa03c79aa01, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: 1da83c14d237ed641a2bb9942ed1acdf, type: 3}
+    PositionTransform: {fileID: 0}
+  - Image: {fileID: 2800000, guid: cd8642024d26c854980742494278cddd, type: 3}
+    PositionTransform: {fileID: 0}
