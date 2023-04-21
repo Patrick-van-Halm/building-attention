@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6490514870915671605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6490514870915671611}
+  - component: {fileID: 6490514870915671610}
+  m_Layer: 0
+  m_Name: FontysAPIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6490514870915671611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490514870915671605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6490514870915671610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490514870915671605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a833f609e2f18a84eba4ae5cbf580fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiUri: https://api.fhict.nl
+  overrideToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ikhod0I2OTBlcmlRSndiUkRpMUhFYm9oZUtkbyIsImtpZCI6Ikhod0I2OTBlcmlRSndiUkRpMUhFYm9oZUtkbyJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5LmZoaWN0Lm5sIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eS5maGljdC5ubC9yZXNvdXJjZXMiLCJleHAiOjE2Nzk1MDI3MTgsIm5iZiI6MTY3OTQ5NTUxOCwiY2xpZW50X2lkIjoiYXBpLWNsaWVudCIsInVybjpubC5maGljdDp0cnVzdGVkX2NsaWVudCI6InRydWUiLCJzY29wZSI6WyJmaGljdCIsImZoaWN0X3BlcnNvbmFsIiwiZmhpY3RfbG9jYXRpb24iXSwic3ViIjoiMGM3YjliMTMtMmJmNi00OWQzLWExNGEtMzcxMjk4ZDAxZjVkIiwiYXV0aF90aW1lIjoxNjc5NDk1NTE3LCJpZHAiOiJmaGljdC1zc28iLCJyb2xlIjpbInVzZXIiLCJzdHVkZW50Il0sInVwbiI6Ikk0Mzc5NTBAZmhpY3QubmwiLCJuYW1lIjoiSGFsbSxQYXRyaWNrIFAuTS4gdmFuIiwiZW1haWwiOiJwLnZhbmhhbG1Ac3R1ZGVudC5mb250eXMubmwiLCJ1cm46bmwuZmhpY3Q6c2NoZWR1bGUiOiJjbGFzc3xYUi1NLVJCMDEiLCJmb250eXNfdXBuIjoiNDM3OTUwQHN0dWRlbnQuZm9udHlzLm5sIiwiYW1yIjpbImV4dGVybmFsIl19.h6ZqtMQZ1EOdLfdmKbhPYHnQkp66SNyf1Xysdwj61RzOoe3AxiUJ85UgA_oyuntsDxjVjltDWKmPixt6WvYjHvCCmKe80n-fkTCMdsd3mra3QajpWcVloQEOL4cvaErInSfPOPDbUL3YNTIFDL81WQwOvQpxn5LOvH96HJKE8z5y1-Ip0wfP1eZFbFuTx0j0vKDmRnUeOYcsiQSAN9P4_1p0mLnrr55baLtLQu6a7Ba83ybU3lgWo2WlJr3SkQRbbD1ZQhp23hr6sOt9X5gyehw8COKH4wwgbIhbyAWA3izBEjXJhDGYnGTiO7tIgI5M-M-XosC0P21Sbwq9h9bGwQ
+  secondsPerLocationRequest: 1
+  location:
+    notificationType: 
+    subscriptionName: 
+    eventId: 0
+    locationMapHierarchy: 
+    locationCoordinate:
+      x: 0
+      y: 0
+      unit: 
+    geoCoordinate:
+      latitude: 0
+      longitude: 0
+      unit: 
+    confidenceFactor: 0
+    apMacAddress: 
+    associated: 0
+    username: 
+    ipAddress: []
+    ssid: 
+    band: 
+    floorId: 
+    entity: 
+    deviceId: 
+    rawLocation:
+      rawX: 0
+      rawY: 0
+      unit: 
+    locComputeType: 
+    manufacturer: 
+    maxDetectedRssi:
+      apMacAddress: 
+      band: 
+      rssi: 0
+      lastHeardInSeconds: 0
+    hierarchyDetails:
+      campus:
+        id: 
+        name: 
+      building:
+        id: 
+        name: 
+      floor:
+        id: 
+        name: 
+    rssiEntries: []
+    timestamp: 0
+    sourceNotification: 
+    sourceNotificationKey: 
+    notificationTime: 
+    macAddress: 
+  floors:
+  - floorLocationName: EHV>TQ>2e
+    floorWidth: 403.23
+    floorLength: 311
+  - floorLocationName: EHV>TQ>1e
+    floorWidth: 366
+    floorLength: 306.4
